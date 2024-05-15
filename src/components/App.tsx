@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import css from "./App.module.css";
 import { getPhotosByAxios } from "../services/library";
-import Searchbar from "./Searchbar/Searchbar";
-import ImageGallery from "./ImageGallery/ImageGallery";
-import { Button } from "./Button/Button";
-import { Loader } from "./Loader/Loader";
+import Searchbar from "../components/Searchbar/Searchbar";
+import ImageGallery from "../components/ImageGallery/ImageGallery";
+import { Button } from "../components/Button/Button";
+import { Loader } from "../components/Loader/Loader";
 import Modal from "./Modal/Modal";
 
 import { GalleryItem, Status, PicObject, AnswerWithData } from "./App.types";
